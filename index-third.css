@@ -1,0 +1,60 @@
+.fav-main-container{
+     margin-top: 150px;
+
+}
+
+#genre{
+     width: 250px; 
+     height: 100%;
+}
+  
+.shop-main-box{
+     display: flex;
+}
+
+.shop-checkbox{
+    width: 100%; 
+    
+}
+
+.fav-main-container{
+     display: flex;
+}
+
+
+.shop-main{ 
+    align-items: start;
+}
+#shop-checkbox div{
+     margin: 8px 0px ; 
+}
+#shop-checkbox label{
+     cursor: pointer;
+}
+
+@media (max-width:1045px) {
+     #genre {
+          width: 165px;
+          height: 100%; 
+      }
+      .fav-main-container>div {  
+          margin: 7px;
+          border-radius: 15px;
+          padding: 8px; 
+      }
+
+      .fav-box { 
+          margin: 15px 0px;
+          height: 420px; 
+          padding: 0px 6px;
+      }
+      .fav-box>img {
+          height: 252px;
+      }
+      .fav-box {
+          margin: 15px 0px;
+          height: 372px;
+          padding: 0px 6px;
+      }
+      
+}

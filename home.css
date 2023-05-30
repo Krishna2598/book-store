@@ -1,0 +1,131 @@
+#search-input-box {
+     display: flex;
+    align-items: center; 
+
+}
+ 
+#search-input-box input {
+    height: 38px;
+    border-radius: 14px;
+    width: 370px;
+    padding: 0px 17px;
+    background-color: rgb(246, 242, 242);
+    border: none;}
+
+
+    .main-nav{
+        width: 100%;
+        text-align: center;
+         
+    }
+    .navbar { 
+        height: 120px;
+    }
+    .navbar {
+        flex-direction: column;
+        height: 130px;
+        padding: 17px 0px;
+    }
+    .cote-logo {
+        display: flex;
+        align-items: center;
+        width: 57%;
+        gap:20px; 
+    }
+
+#search-input-box i {
+    z-index: 20;
+    position: relative;
+
+    right: 30px;
+   
+}
+
+.main-nav nav>ul {
+    justify-content: center;
+    margin: 10px 0px;
+    border-top: solid rgb(211, 211, 211) 1px;
+} 
+
+.rev-home6_04 {
+    display: none;}
+
+
+    .main-nav nav ul li { 
+        padding: 15px 15px;}
+
+
+
+        #dropdown-category {
+         
+            position: absolute;
+                left: 420px; }
+
+
+                .dropdown {
+                    position: absolute;
+                    top: 107px;
+                    width: 200px; 
+                }
+
+
+                .slide-first {
+                   background-image: url("img/h6_bg1.jpg");
+                   background-position:center;
+                   background-repeat: no-repeat;
+                   background-size: cover;  
+                   display: flex;
+                    justify-content: center;
+                }
+
+                .text-eara-div { 
+                    width: 470px;
+                }
+
+
+                .text-eara-div h1 { 
+                    color: black;
+                }
+
+                .selling-container {
+            flex-direction: column;
+
+                }
+                
+                .context-second>div P {
+                    color: rgb(255 255 255);
+                    margin: 10px 0px 30px 0px;
+                }
+                .context-second li a {
+                    color: rgb(212 208 208);
+                }
+
+                .context-second h4 {
+                    font-size: 20px;
+                    color: white;
+                }
+                #mail-div {
+                    font-size: 18px;
+                    color: white;
+                }
+
+                .context-first {
+                    width: 29%;
+                    padding: 30px 20px;
+                    border-right: solid rgb(169, 168, 168) 1px;
+                    color: white;
+                }
+
+                .contect-container { 
+                    background:  #282828;;
+                }
+                .footer-container{
+                     background-color:  #282828;;
+                     color: white;
+                } 
+
+                @media (max-width:1045px){
+                    .selling-vender {
+                        margin-top:100px;
+                    }
+                }
